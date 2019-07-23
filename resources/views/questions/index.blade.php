@@ -37,6 +37,9 @@
                                     <div class="ml-auto">
                                         <a href="{{ route('questions.edit', $question->id) }}" class="btn btn-sm btn-outline-info">Edit</a>
                                     </div>
+                                    <div class="ml-auto">
+                                        <a href="{{ route('questions.delete', $question->id) }}" class="btn btn-sm btn-outline-danger">Delete</a>
+                                    </div>
                                 </div>
                                 <p class="lead"> 
                                     Asked by
